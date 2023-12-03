@@ -109,6 +109,9 @@ const TaskFrom = ({ AddTask, EditTask, taskToEdit, setTaskToEdit, clear }) => {
     });
   };
   const handleAdd = (e) => {
+    if (Task.name === "") {
+      return;
+    }
     if (Task.id === null) {
       AddTask(Task);
       reset();
