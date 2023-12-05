@@ -1,0 +1,74 @@
+[
+  {
+    "drums": [
+      "sounds/Drums/Kick.ogg",
+      "sounds/Drums/Snare.ogg",
+      "sounds/Drums/Hi-Hat-CLSD.ogg"
+    ],
+    "guitar": [
+      "sounds/Guitar/A.ogg",
+      "sounds/Guitar/C.ogg",
+      "sounds/Guitar/D.ogg"
+    ],
+    "piano": ["sounds/Piano/A.ogg", "sounds/Piano/B.ogg", "sounds/Piano/C.ogg"],
+    "synth": ["sounds/Synth/A.ogg", "sounds/Synth/B.ogg", "sounds/Synth/C.ogg"]
+  },
+  {
+    "drums": [
+      "sounds/Drums/Hi-Hat-OP.ogg",
+      "sounds/Drums/Tom One.ogg",
+      "sounds/Drums/Cowbell.ogg"
+    ],
+    "guitar": [
+      "sounds/Guitar/E.ogg",
+      "sounds/Guitar/F.ogg",
+      "sounds/Guitar/G.ogg"
+    ],
+    "piano": ["sounds/Piano/D.ogg", "sounds/Piano/E.ogg", "sounds/Piano/F.ogg"],
+    "synth": ["sounds/Synth/D.ogg", "sounds/Synth/E.ogg", "sounds/Synth/F.ogg"]
+  },
+  {
+    "drums": [
+      "sounds/Drums/Tom Three L.ogg",
+      "sounds/Drums/Crash 1.ogg",
+      "sounds/Drums/Floor Tom 1.ogg"
+    ],
+    "guitar": [
+      "sounds/Guitar/A S.ogg",
+      "sounds/Guitar/C S.ogg",
+      "sounds/Guitar/D S.ogg"
+    ],
+    "piano": [
+      "sounds/Piano/G.ogg",
+      "sounds/Piano/A S.ogg",
+      "sounds/Piano/C S.ogg"
+    ],
+    "synth": [
+      "sounds/Synth/G.ogg",
+      "sounds/Synth/A S.ogg",
+      "sounds/Synth/C S.ogg"
+    ]
+  },
+  {
+    "drums": [
+      "sounds/Drums/Floor Tom 2.ogg",
+      "sounds/Drums/Crash 2.ogg",
+      "sounds/Drums/Tom Two.ogg"
+    ],
+    "guitar": [
+      "sounds/Guitar/F S.ogg",
+      "sounds/Guitar/G S.ogg",
+      "sounds/Guitar/B.ogg"
+    ],
+    "piano": [
+      "sounds/Piano/D S.ogg",
+      "sounds/Piano/F S.ogg",
+      "sounds/Piano/G S.ogg"
+    ],
+    "synth": [
+      "sounds/Synth/D S.ogg",
+      "sounds/Synth/F S.ogg",
+      "sounds/Synth/G S.ogg"
+    ]
+  }
+]
