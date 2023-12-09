@@ -59,6 +59,38 @@ body {
   overflow-x: hidden;
 }
 
+body.Guitars {
+  width: 100vw;
+  min-height: 100vh;
+  border: none;
+  background: #ffa2a2;
+  transition: all 0.3s ease-in-out;
+}
+
+body.Drums {
+  width: 100vw;
+  min-height: 100vh;
+  border: none;
+  background: #8ceeff;
+  transition: all 0.3s ease-in-out;
+}
+
+body.Synths {
+  width: 100vw;
+  min-height: 100vh;
+  border: none;
+  background: #8cffc5;
+  transition: all 0.3s ease-in-out;
+}
+
+body.Pianos {
+  width: 100vw;
+  min-height: 100vh;
+  border: none;
+  background: #fff38c;
+  transition: all 0.3s ease-in-out;
+}
+
 button {
   cursor: pointer;
 }
@@ -218,4 +250,10 @@ img {
 .MenuCard.Pianos,
 .MenuCard.Synths {
   transform: scale(1.2);
+}
+
+.PadLine button.lumine,
+.lumine {
+  background: #fff;
+  transition: all 0.3s ease-in-out;
 }

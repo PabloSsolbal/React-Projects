@@ -49,16 +49,26 @@ export const DrumMenu = ({
   setPianos,
   setSynths,
   types,
+  setIsDisplayed,
+  setIsLumine,
+  LuminePad,
 }) => {
   const handleSet = (setNumber, type) => {
+    setTimeout(() => {
+      setIsDisplayed(false);
+    }, 500);
     if (type === "Drums") {
       setDrums(data[setNumber].drums);
+      LuminePad(document.querySelectorAll("button.Drums"));
     } else if (type === "Guitars") {
       setGuitars(data[setNumber].guitar);
+      LuminePad(document.querySelectorAll("button.Guitars"));
     } else if (type === "Pianos") {
       setPianos(data[setNumber].piano);
+      LuminePad(document.querySelectorAll("button.Pianos"));
     } else if (type === "Synths") {
       setSynths(data[setNumber].synth);
+      LuminePad(document.querySelectorAll("button.Synths"));
     }
   };
 
