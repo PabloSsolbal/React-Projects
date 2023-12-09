@@ -27,7 +27,7 @@ const MenuCard = ({ type, handleSet }) => {
   return (
     <div className={["MenuCard", type].join(" ")}>
       {type}
-      <img src={`public/images/${type}.png`} />
+      <img src={`/images/${type}.png`} />
       <div className="MenuCardBtnsContainer">
         {setNumbers &&
           setNumbers.map((setNumber, index) => (

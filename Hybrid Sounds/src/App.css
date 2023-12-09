@@ -52,7 +52,7 @@ body {
   justify-content: center;
   align-items: center;
   filter: hue-rotate(-20deg);
-  background: url(public/images/background-img-3.jpg);
+  background: url(/images/background-img-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

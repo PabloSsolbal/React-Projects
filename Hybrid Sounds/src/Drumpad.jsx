@@ -7,7 +7,7 @@ import data from "./Sounds.json";
 
 const Pad = ({ sound, type, LumineBg }) => {
   const handleSound = () => {
-    new Audio(`public/${sound}`).play();
+    new Audio(`/${sound}`).play();
   };
 
   return (
@@ -47,7 +47,7 @@ export const DrumApp = () => {
   const preLoadSounds = (sounds) => {
     sounds.forEach((sound) => {
       try {
-        const audio = new Audio(`public/${sound}`);
+        const audio = new Audio(`/${sound}`);
         console.log(audio);
         audio.preload = "auto";
         audio.load();
